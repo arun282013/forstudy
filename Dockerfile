@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From saravak/tomcat8
 
 # Maintainer 
 MAINTAINER "arun@cdit.org" 
-COPY ./webapp.war /opt/apache-tomcat-10.0.22/webapps
+COPY ./webapp.war /opt/tomcat/webapps
